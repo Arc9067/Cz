@@ -21,8 +21,8 @@ const Hero = () => {
           <h1 className="title p-2 text-capitalize">Let’s go to Cz!</h1>
           {/* <h1 className="title p-2 text-capitalize">paradise with Bahamas </h1> */}
           <p className="info text-center">
-            Welcome to Cz on the Ethereum network! Enjoy the sun, sand, and
-            0% tax while making your dreams come true. Dive into the world of
+            Welcome to Cz on the Ethereum network! Enjoy the sun, sand, and 0%
+            tax while making your dreams come true. Dive into the world of
             decentralized finance and explore endless possibilities with us.
           </p>
           <a href="" className="button text-capitalize d-flex gap-2">
@@ -37,7 +37,10 @@ const Hero = () => {
           </a>
           <img src={Logo} alt="" className="mt-3 logo" />
 
-          <a href="" className="button chart mt-5">
+          <a
+            href="https://www.dextools.io/app/en/ether/pair-explorer/0xdcff3bc8b38cfa4287f70166176d89940bc53f63"
+            className="button chart mt-5"
+          >
             View Chart
             <BuyCrypto size="32" color="#ffc000" variant="Bulk" />
           </a>

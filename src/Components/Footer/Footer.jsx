@@ -13,17 +13,12 @@ const Footer = () => {
 
         <ul className="d-flex gap-2 align-items-center list-unstyled">
           <li>
-            <a href="">
-              <img src={Gmail} alt="" />
-            </a>
-          </li>
-          <li>
-            <a href="">
+            <a href="https://t.me/CzCommunityEth">
               <img src={Telegram} alt="" />
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://twitter.com/CZCommunityEth">
               <img src={twitter} alt="" />
             </a>
           </li>

@@ -17,7 +17,10 @@ const Header = () => {
     <header className="container-fluid header">
       <div className="container d-flex justify-content-between align-items-center">
         <h2 className="head">Cz</h2>
-        <a href="" className="button text-capitalize d-flex gap-2">
+        <a
+          href="https://www.dextools.io/app/en/ether/pair-explorer/0xdcff3bc8b38cfa4287f70166176d89940bc53f63"
+          className="button text-capitalize d-flex gap-2"
+        >
           <ChartSquare
             color="#000"
             size={24}
