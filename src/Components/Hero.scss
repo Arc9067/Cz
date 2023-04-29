@@ -1,0 +1,57 @@
+.hero {
+  width: 100%;
+  background-size: cover;
+  padding-block: 100px;
+
+  .cz {
+    max-width: 100%;
+  }
+
+  h1.title {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 120%;
+    text-align: center;
+    color: #00c853;
+
+    @media (max-width: 700px) {
+      font-size: 32px;
+      line-height: 120%;
+    }
+  }
+  p.info {
+    max-width: 500px;
+  }
+
+  a.button {
+    padding: 16px 32px;
+    background: #00c853;
+    border-radius: 10000px;
+    font-family: "Gosha Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s linear;
+  }
+  a.chart {
+    background-color: #000;
+    color: #f0b90b;
+  }
+  a.button:hover {
+    background-color: #ffffff;
+    color: #000;
+  }
+  a.chart:hover {
+    background-color: #00c853;
+  }
+
+  .logo {
+    border-radius: 1000px;
+    max-width: 100%;
+  }
+}

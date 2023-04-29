@@ -1,0 +1,35 @@
+.header {
+  min-height: 60px;
+  width: 100%;
+  padding-block: 10px;
+  position: absolute;
+  top: 0;
+
+  h2.head {
+    font-size: 45px;
+    font-family: "Gosha Sans", sans-serif;
+    color: #00c853;
+  }
+
+  a.button {
+    padding: 16px 32px;
+    background: #00c853;
+    border-radius: 10000px;
+    font-family: "Gosha Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s linear;
+
+    @media (max-width: 700px) {
+      display: none !important;
+    }
+  }
+  a.button:hover {
+    background-color: #0077b5;
+    color: #000;
+  }
+}
