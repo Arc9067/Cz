@@ -18,7 +18,7 @@ const Hero = () => {
       <section className="hero container-fluid">
         <div className="container d-flex flex-column align-items-center justify-content-center gap-2 ">
           <img src={Cz} alt="" className="cz" />
-          <h1 className="title p-2 text-capitalize">Let’s go to Cz!</h1>
+          <h1 className="title p-2 text-capitalize">Let’s go Cz Classic!</h1>
           {/* <h1 className="title p-2 text-capitalize">paradise with Bahamas </h1> */}
           <p className="info text-center">
             Welcome to Cz on the Ethereum network! Enjoy the sun, sand, and 0%
@@ -43,6 +43,9 @@ const Hero = () => {
           >
             View Chart
             <BuyCrypto size="32" color="#ffc000" variant="Bulk" />
+          </a>
+          <a href="mailto:CzClassic@gmail.com" className="button chart mt-5">
+            CzClassic@gmail.com
           </a>
         </div>
       </section>

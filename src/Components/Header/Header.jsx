@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <header className="container-fluid header">
       <div className="container d-flex justify-content-between align-items-center">
-        <h2 className="head">Cz</h2>
+        <h2 className="head">Cz Classic</h2>
         <a
           href="https://www.dextools.io/app/ether/pair-explorer/0xaA007776ca5efCB3dd8d80E0cee7b7Fcd7b4aB22"
           className="button text-capitalize d-flex gap-2"
